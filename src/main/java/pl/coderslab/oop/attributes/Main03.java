@@ -9,5 +9,6 @@ public class Main03 {
         System.out.println(person.surname);
         System.out.println(person.age);
         System.out.println(person.gender);
+
     }
 }
