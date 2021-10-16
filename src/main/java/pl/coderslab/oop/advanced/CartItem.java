@@ -20,4 +20,12 @@ public class CartItem {
         this.quantity = quantity;
 
     }
+
+    @Override
+    public String toString() {
+        return "CartItem{" +
+                "product=" + product +
+                ", quantity=" + quantity +
+                '}';
+    }
 }
