@@ -20,6 +20,7 @@ public class Shop {
         cart.getTotalQuantity();
         cart.removeProduct(Milk);
 
+
         cart.printReceipt();
         cart.getTotalQuantity();
 
