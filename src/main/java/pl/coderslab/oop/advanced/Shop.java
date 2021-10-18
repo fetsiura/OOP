@@ -12,14 +12,12 @@ public class Shop {
         Product Bread = new Product("Bread", 5);
         Product Sugar = new Product("Sugar", 10);
 
-
         cart.addProduct(Milk,2);
         cart.addProduct(Bread,1);
         cart.addProduct(Sugar,3);
         cart.printReceipt();
         cart.getTotalQuantity();
         cart.removeProduct(Milk);
-
 
         cart.printReceipt();
         cart.getTotalQuantity();
